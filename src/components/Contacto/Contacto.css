@@ -44,7 +44,7 @@
     color: #c2d3db;
 }
 
-.contacto-details{
+.contacto-detalles{
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -52,7 +52,7 @@
     font-size: 22px;
 }
 
-.contacto-detail{
+.contacto-detalle{
     display: flex;
     align-items: center;
     gap: 20px;
