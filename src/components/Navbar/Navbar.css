@@ -20,7 +20,7 @@
 .nav-connect {
     padding: 20px 40px;
     border-radius: 50px;
-    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    background-image: linear-gradient(to right, #3d7fa8 0%, #26a0da  51%, #314755  100%);
     font-size: 22px;
     transition: 0.5s;
     text-align: center;
@@ -31,7 +31,7 @@
 
 
 .nav-connect:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center; 
     color: #fff;
     text-decoration: none;
     transform: scale(1.05);

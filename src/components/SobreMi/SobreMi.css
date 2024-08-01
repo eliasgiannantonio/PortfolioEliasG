@@ -57,6 +57,7 @@
     min-width: 150px;
     font-size: 24px;
     font-weight: 500;
+    cursor:default
 }
 
 .about-skill hr {
@@ -65,7 +66,7 @@
     width: 50%;
     height: 8px;
     border-radius: 50px;
-    background: linear-gradient(to right, #89abc0 0%, #26a0da  51%, #314755  100%);
+    background: linear-gradient(to right, #3d7fa8 0%, #26a0da  51%, #314755  100%);
 }
 
 .about-skill:hover {
