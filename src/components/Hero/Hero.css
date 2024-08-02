@@ -1,41 +1,42 @@
 .hero img {
-    height: 320px;
-    margin-top: 150px;
+    margin-top: 30px;
+    width: 240px;
+    border-radius: 50%;
 }
 
 .hero {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 35px;
+    gap: 20px;
 }
 
 .hero h1 {
     text-align: center;
     width: 70%;
-    font-size: 90px;
+    font-size: 65px;
     font-weight: 600;
+    line-height: 70px;
 }
 
 .hero h1 span {
-    background: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    background: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.hero p{
+.hero p {
     width: 50%;
     text-align: center;
-    font-size: 24px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 30px;
 }
 
-.hero-action{
+.hero-action {
     display: flex;
     align-items: center;
     gap: 25px;
-    font-size: 24px;
     font-weight: 500;
     margin-bottom: 50px;
 }
@@ -43,7 +44,7 @@
 .hero-connect {
     padding: 20px 40px;
     border-radius: 50px;
-    background-image: linear-gradient(to right, #3d7fa8 0%, #26a0da  51%, #314755  100%);
+    background-image: linear-gradient(to right, #3d7fa8 0%, #26a0da 51%, #314755 100%);
     font-size: 22px;
     transition: 0.5s;
     text-align: center;
@@ -53,23 +54,45 @@
 }
 
 .hero-connect:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
     color: #fff;
     text-decoration: none;
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
 
-.hero-curriculum{
+.hero-curriculum {
     padding: 20px 40px;
     border-radius: 50px;
     border: 2px solid white;
     cursor: pointer;
 }
 
-.hero-curriculum:hover{
+.hero-curriculum:hover {
     border-color: #26a0da;
 }
 
+@media(max-width:768px) {
+    .hero-img {
+        margin-bottom: 120px;
+        width: 260px;
+    }
 
+    .hero h1 {
+        margin-top: 50px;
+        width: 90%;
+        font-size: 50px;
+    }
 
-
+    .hero p {
+        width: 60%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0px;
+    }
+    .hero-action{
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+}
