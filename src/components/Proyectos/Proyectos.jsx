@@ -4,7 +4,7 @@ import arrow_icon from '../../assets/arrow_icon.svg'
 import './Proyectos.css'
 const Proyectos = () => {
   return (
-    <div className='proyectos'>
+    <div id="portfolio" className='proyectos'>
         <div className="proyectos-title">
             <h1>Mis últimos proyectos</h1>
         </div>

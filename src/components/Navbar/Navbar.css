@@ -17,6 +17,13 @@
     font-size: 20px;
 }
 
+.nav-menu li {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .nav-connect {
     padding: 20px 40px;
     border-radius: 50px;
@@ -35,5 +42,10 @@
     color: #fff;
     text-decoration: none;
     transform: scale(1.05);
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: white;
 }
  

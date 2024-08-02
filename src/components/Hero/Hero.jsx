@@ -4,7 +4,7 @@ import profile_img from '../../assets/profile_img.png'
 
 function Hero() {
   return (
-    <div className='hero'>
+    <div id='inicio' className='hero'>
         <img src={profile_img} alt="" />
         <h1><span>Soy Elias Giannantonio,</span> desarrollador web.</h1>
         <p>Desarrollador web apasionado y creativo en busca de nuevos desafíos. Bienvenido a mi portfolio.</p>
