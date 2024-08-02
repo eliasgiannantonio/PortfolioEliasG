@@ -59,7 +59,7 @@
 
 @media(max-width: 768px) {
     .navbar {
-        margin: 20px 50px;
+        margin: 20px 6%;
     }
     .nav-connect{
         display: none;
@@ -83,16 +83,15 @@
         top: 0;
         gap: 30px;
         background-color: #082e4d;
-        width: 350px;
+        width: 300px;
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
         right: -350px;
     }
     .nav-menu li {
-        width: 100%;
-        font-size: 30px;
-        padding: 70px;
+        font-size: 22px;
+        padding-left: 50px;
         flex-direction: row;
         gap: 20px;
     }
