@@ -7,11 +7,11 @@
     margin: 80px 10%;
 }
 
-.contact-title {
+.contacto-title {
     position: relative;
 }
 
-.contact-title h1 {
+.contacto-title h1 {
     padding: 0px 30px;
     font-size: 60px;
     font-weight: 600;
@@ -77,10 +77,10 @@
 .contacto-right input{
     border: none;
     width: 100%;
-    padding: 19px 0 18px 0;
+    padding: 18px 0 18px 20px;
     border-radius: 4px;
     background: #32323c;
-    color: #A0A0A0;
+    color: #a0a0a0;
     font-family: Outfit;
     font-size: 18px;
     
@@ -100,8 +100,8 @@
 .contacto-submit{
     border: none;
     color: white;
-    padding: 20px 40px;
-    border-radius: 50px;
+    padding: 12px 40px;
+    border-radius: 30px;
     background-image: linear-gradient(to right, #3d7fa8 0%, #26a0da  51%, #314755  100%);
     font-size: 22px;
     transition: 0.5s;

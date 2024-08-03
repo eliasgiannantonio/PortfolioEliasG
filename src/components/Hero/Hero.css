@@ -20,7 +20,7 @@
 }
 
 .hero h1 span {
-    background: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+    background: linear-gradient(to right, #288bc9 0%, #26a0da 51%, #8ab2ca 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -44,13 +44,14 @@
 .hero-connect {
     padding: 0 30px;
     border-radius: 50px;
-    background-image: linear-gradient(to right, #3d7fa8 0%, #26a0da 51%, #314755 100%);
+    background-image: linear-gradient(to right, #3d7fa8 0%, #26a0da 51%, #88a7bb 100%);
     font-size: 18px;
     transition: 0.5s;
     text-align: center;
     background-size: 200% auto;
     cursor: pointer;
-    display: block;
+    display: flex;
+    align-items: center;
     height: 64px;
 }
 
@@ -101,9 +102,14 @@
         margin-bottom: 50px;
     }
     .hero-connect {
-        padding: 20px;
+        align-items: stretch;
         border-radius: 40px;
         font-size: 14px;
+        display: flex;
+        align-content: space-around;
+        flex-wrap: nowrap;
+        justify-content: center;
+        flex-direction: column;
     }
     .hero-resume {
         padding: 18px 30px;
