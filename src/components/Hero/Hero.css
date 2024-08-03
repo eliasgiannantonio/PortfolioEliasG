@@ -4,6 +4,32 @@
     border-radius: 50%;
 }
 
+.hero-curriculum-link {
+    text-decoration: none;
+}
+
+.hero-curriculum {
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-curriculum:hover {
+    border-color: #26a0da;
+}
+
+.hero-connect-link {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+
 .hero {
     display: flex;
     align-items: center;
@@ -53,29 +79,14 @@
     display: flex;
     align-items: center;
     height: 64px;
+    white-space: nowrap
 }
-
-.hero-connect .anchor-link {
-    display: inline-block; 
-    white-space: nowrap; 
-  }
 
 .hero-connect:hover {
     background-position: right center;
     color: #fff;
     text-decoration: none;
     transform: scale(1.01);
-}
-
-.hero-curriculum {
-    padding: 20px 40px;
-    border-radius: 50px;
-    border: 2px solid white;
-    cursor: pointer;
-}
-
-.hero-curriculum:hover {
-    border-color: #26a0da;
 }
 
 @media(max-width:768px) {
@@ -111,7 +122,7 @@
         justify-content: center;
         flex-direction: column;
     }
-    .hero-resume {
+    .hero-curriculum {
         padding: 18px 30px;
         border-radius: 40px;
         font-size: 14px;
