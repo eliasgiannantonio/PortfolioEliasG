@@ -13,10 +13,12 @@ const Proyectos = () => {
                 return <a target="blank" href={work.w_url}><img key={index} src={work.w_img} alt="" /></a>
             })}
         </div>
-        <div className="proyectos-ver-mas">
-            <p>Ver más</p>
-            <img src={arrow_icon} alt="" />
-        </div>
+        <a className="linkgithub" href="https://github.com/eliasgiannantonio">
+            <div className="proyectos-ver-mas">
+                <p>Ver más</p>
+                <img src={arrow_icon} alt="" />
+            </div>
+        </a>
     </div>
   )
 }

@@ -11,6 +11,7 @@
     position: relative;
 }
 
+
 .proyectos-title h1 {
     padding: 0px 30px;
     font-size: 60px;
@@ -47,6 +48,11 @@
     margin-bottom: 80px;
     transition: 0.6s;
     cursor: pointer;
+}
+
+.linkgithub {
+    text-decoration: none;
+    color: white;
 }
 
 .proyectos-ver-mas img {
